@@ -14,10 +14,10 @@ export default function App() {
   }
 
   return (
-    <main className='w-full h-100vh mx-auto py-5 flex flex-col gap-2 items-center justify-start 
+    <main className='w-full h-100vh mx-auto py-5 flex flex-col gap-2 items-center justify-start text-center
     bg-([radial-gradient(at_top_left,#f0e9df_10%,transparent_40%,transparent_60%,#dfe0f0_100%)] center no-repeat)'>
       <h1 className='uppercase tracking-2 font-400'>Andrey's Starter Project</h1>
-      <div className='uppercase font-400 tracking-1'>TypeScript + Vite + Next.js + UnoCSS + shadcn/ui</div>
+      <div className='uppercase font-400 tracking-1'>TypeScript + Vite + UnoCSS + shadcn/ui</div>
       <div className='pt-55px text-center flex w-fit mx-auto
         [&>.heads]:(animate-flipHeads animate-forwards) 
         [&>.tails]:(animate-flipTails animate-forwards)'>

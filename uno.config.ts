@@ -13,7 +13,7 @@ export default defineConfig({
           name: 'Montserrat',
           weights: [400,500,600]
         }
-      },
+      }
     }),
     presetAnimations(),
     presetShadcn({ color: "stone", radius: 0.4 }),
@@ -73,20 +73,6 @@ export default defineConfig({
           100% {
             transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 540deg);
             animation-timing-function: ease-in;
-          }
-        }`,
-        puffIn: `{
-          0% {
-            opacity: 0;
-            transform-origin: 50% 50%;
-            transform: scale(2, 2);
-            filter: blur(2px);
-          }
-          100% {
-            opacity: 1;
-            transform-origin: 50% 50%;
-            transform: scale(1, 1);
-            filter: blur(0px);
           }
         }`
       },
